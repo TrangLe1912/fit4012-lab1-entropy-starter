@@ -9,9 +9,7 @@ warnings = []
 
 required_files = [
     'README.md',
-    'report-1page.md',
-    'assignment-obe.md',
-    'buoi2-guide.md',
+    'report-page.md',
     'src/entropy_redundancy.cpp',
     'src/mod_inverse.cpp',
     'tests/test_cases.md',
@@ -29,7 +27,7 @@ if errors:
 
 entropy_code = (root / 'src/entropy_redundancy.cpp').read_text(encoding='utf-8')
 modinv_code = (root / 'src/mod_inverse.cpp').read_text(encoding='utf-8')
-report = (root / 'report-1page.md').read_text(encoding='utf-8')
+report = (root / 'report-page.md').read_text(encoding='utf-8')
 tests = (root / 'tests/test_cases.md').read_text(encoding='utf-8')
 log = (root / 'logs/run_log.md').read_text(encoding='utf-8')
 readme = (root / 'README.md').read_text(encoding='utf-8')
