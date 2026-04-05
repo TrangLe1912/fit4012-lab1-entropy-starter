@@ -13,11 +13,7 @@ Sau khi hoàn thành bài này, sinh viên có thể:
 - `src/mod_inverse.cpp`: Q3
 - `tests/test_cases.md`: test cases tối thiểu
 - `logs/run_log.md`: log chạy chương trình
-- `report-1page.md`: báo cáo 1 trang
-- `assignment-obe.md`: đề bài phiên bản OBE
-- `assignment-classroom.md`: mô tả assignment để dán vào GitHub Classroom
-- `buoi2-guide.md`: hướng dẫn thực hiện cho sinh viên
-
+- `report-page.md`: báo cáo 1 trang
 
 ## Yêu cầu nộp bài
 Hoàn thiện repo và nộp link GitHub. Repo cần có:
