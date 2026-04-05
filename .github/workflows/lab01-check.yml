@@ -1,4 +1,4 @@
-name: FIT4012 Buoi 2 Auto Check
+name: FIT4012 Lab 1 Auto Check
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  validate-lab02:
+  validate-lab01:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,5 +27,5 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y g++
 
-      - name: Run Lab 02 checker
-        run: python3 .github/scripts/check_lab02.py
+      - name: Run Lab 01 checker
+        run: python3 .github/scripts/check_lab01.py
